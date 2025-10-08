@@ -5,6 +5,10 @@ Answer:
 Use querySelector() for flexibility with CSS selectors.
 Use querySelectorAll() when you need multiple elements.
 Avoid getElementsByClassName() unless you specifically need a live collection.
+
+
+
+
 2.How do you create and insert a new element into the DOM?
 
 Answer:
@@ -16,6 +20,9 @@ div.textContent = "Hello, I’m Taju";
 div.classList.add('greeting');
 
 document.body.appendChild(div);
+
+
+
 
 
 3.What is Event Bubbling and how does it work?
@@ -35,6 +42,9 @@ document.getElementById("child").addEventListener("click", function (){
 
 
 
+
+
+
 4.What is Event Delegation in JavaScript? Why is it useful?
 
 Answer:
@@ -51,9 +61,16 @@ document.getElementById("container").addEventListener("click",function (e){
 });
 
 
+
+
+
 5.What is the difference between preventDefault() and stopPropagation() methods?
 
  Answer:
 
 preventDefault():Stops the default action of an element
 stopPropagation():Stops the event from bubbling up
+
+
+
+
